@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Web Accessibility</title>
+        <link rel="stylesheet" href="css/syle.css" />
+    </head>
+    <body>
+        <header role="banner">
+            <div class="child child1">
+                <img id="logo" src="images/thealchemist.png" alt="Logo" />
+            </div>
+            <nav role="navigation" class="child child2">
+                <ul class="nav-flex">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main role="main">
+            <article role="article">
+                <div class="title">
+                    <h1>The Alchemist by Paulo Coelho</h1>
+                    <div class="images">
+                        <img id="book-cover" src="images/pic1.jpg" alt="Book" />
+                    </div>
+                </div>
+                <section class="child">
+                    <div class="text">
+                        <p>
+                            Paulo Coelho's masterpiece tells the mystical story
+                            of Santiago, an Andalusian shepherd boy who yearns
+                            to travel in search of a worldly treasure. His quest
+                            will lead him to riches far different—and far more
+                            satisfying—than he ever imagined. Santiago's journey
+                            teaches us about the essential wisdom of listening
+                            to our hearts, of recognizing opportunity and
+                            learning to read the omens strewn along life's path,
+                            and, most importantly, to follow our dreams.
+                        </p>
+                    </div>
+                </section>
+
+                <section class="child">
+                    <div class="text">
+                        <p>
+                            Santiago is a shepherd. He loves his flock, though
+                            he can’t help but notice the limited nature of the
+                            sheep’s existence. Seeking only food and water, they
+                            never lift their heads to admire the green hills or
+                            the sunsets. Santiago’s parents have continually
+                            struggled for the basics of life and have smothered
+                            their own ambitions accordingly. They live in
+                            beautiful Andalucía, which attracts tourists to its
+                            quaint villages and rolling hills, but for them it
+                            is not a place of dreams.
+                        </p>
+                        <p>
+                            Santiago, on the other hand, can read and wants to
+                            travel. He goes into town one day to sell some of
+                            his flock and encounters a tramp-king and a gypsy
+                            woman. They urge him to ‘follow his omens’ and leave
+                            the world he knows. The gypsy points him toward the
+                            pyramids of Egypt, where she says he will find
+                            treasure.
+                        </p>
+                    </div>
+                    <div class="images">
+                        <img id="pic2" src="images/pic2.jpg" alt="Book" />
+                    </div>
+                </section>
+
+                <section class="child">
+                    <div class="text">
+                        <p>
+                            Much of self-help literature is about pursuing our
+                            destiny, but dreams do not always pull us along;
+                            they speak persistently but quietly, and it does not
+                            take much effort to smother the inner voices. Who is
+                            willing to risk comfort, routine, security and
+                            existing relationships to follow something that to
+                            others looks like a mirage? It takes courage, and
+                            dog-eared, stained copies of Coelho’s classic have
+                            become the constant companion of people who need to
+                            make fearless decisions daily to keep true to a
+                            larger vision.
+                        </p>
+                    </div>
+                    <div class="images">
+                        <img
+                            id="book-quotes"
+                            src="images/pic4.jpg"
+                            alt="Book"
+                        />
+                    </div>
+                </section>
+            </article>
+            <section class="form-container">
+                <label for="comments">Leave your review about the book:</label>
+                <form action="post">
+                    <input type="text" name="reviews" />
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+
+        <footer role="contentinfo">&copy;Sdiperi2018</footer>
+    </body>
+</html>
